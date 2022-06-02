@@ -1,0 +1,45 @@
+ /* ------------Pagina Blog------------ */
+
+.blog-margin {
+    @include margenes-pages(20%, 20%);  /* agregando un mixin */
+    main {
+        .titulo-blog {
+            margin: 2vw;
+        }
+        .entradas-blog {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .paginas-blog {
+            margin: 1vh;
+            text-align: right;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .blog-margin {
+        @include margenes-pages(8%, 8%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-margin {
+        @include margenes-pages(8%, 8%);
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    .blog-margin {
+        margin-top: 4vh;
+        @include margenes-pages(12%, 12%);
+    }
+}
+
+@media screen and (max-width: 333px) {
+    .blog-margin {
+        @include margenes-pages(8%, 8%);
+    }
+}

@@ -1,0 +1,50 @@
+/* ------------Pagina Tienda----------- */
+
+.main-tienda {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    .titulo-tienda {
+        margin-left: 2vw;
+    }
+    .productos-tienda {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .paginas-tienda {
+        margin: 1vh;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-tienda {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-tienda {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .main-tienda {
+        margin-top: 4vh;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    .main-tienda {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+

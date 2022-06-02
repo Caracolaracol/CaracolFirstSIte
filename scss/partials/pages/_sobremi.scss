@@ -1,0 +1,77 @@
+@import "../variables/variables";
+/* ------------pagina sobre mi---------- */
+
+.sobremi {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4vw;
+    .card {
+        background-color: rgb(211, 191, 191);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sobremi {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sobremi {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+@media screen and (max-width: 510px){
+    .sobremi {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+@media screen and (max-width: 333px) {
+    .blog-margin {
+        margin-top: 4vh;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+.titulo-blog {
+    margin: 2vw;
+}
+
+.colores {
+    background-color: $color-principal;
+}
+
+.imagen-sobremi-1 {
+    max-height: 24vw;
+    margin: 1vw;
+}
+
+.parrafo-sobremi {
+    text-align: justify;
+    padding: 1vw;
+}
+
+.parrafo-sobremi-1 {
+    text-align: justify;
+    padding: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+    .imagen-sobremi-1 {
+        max-height: 29vw;
+        margin: 0.4vw;
+    }
+}
+@media screen and (max-width: 510px) {
+    .imagen-sobremi-1 {
+        max-height: 34vw;
+        margin: 0.4vw;
+    }
+}

@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import "../variables/variables";
+
+body {
+    background-color: rgb(227, 217, 217);
+    font-size: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+
+@media screen and (max-width: 510px) {
+    h1 {
+        font-size: 0.4vw;
+    }
+}
+
+h2 {
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 0.1vh;
+    color: rgb(161, 65, 26);
+    font-size: 2.6vw;
+    opacity: 97%;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.29);
+}
+
+@media screen and (max-width: 1024px) {
+    h2 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h2 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    h2 {
+        font-size: 7vw;
+    }
+}
+
+h3 {
+    @extend h2 ; 
+}
+
+@media screen and (max-width: 1024px) {
+    h3 {
+        font-size: 4.3vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h3 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    h3 {
+        font-size: 6vw;
+    }
+}
+
+
+h4 {
+    font-family: 'Palanquin Dark', sans-serif;
+    color: rgb(28, 9, 4);
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4vw;
+}
+
+@media screen and (max-width: 1024px) {
+    h5 {
+        font-size: 2.4vw;
+    }
+}
+@media screen and (max-width: 768px){
+    h5 {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h5 {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    h5 {
+        font-size: 5.8vw;
+    }
+}
+
+h6 {
+    font-family: 'Palanquin Dark', sans-serif;
+    color: rgb(28, 9, 4);
+    font-size: 1.1vw;
+}
+
+@media screen and (max-width: 1024px) {
+    h6 {
+        font-size: 2.1vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    h6 {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h6 {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    h6 {
+        font-size: 5vw;
+    }
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1vw;
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 2.3vw;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    p {
+        font-size: 4.5vw;
+    }
+}
+
+main {
+    a {
+        font-size: 1.3vw;
+        text-decoration: none;
+        color: $color-principal;
+        &:hover{
+            color: rgb(36, 2, 36);
+        }
+    }
+    @media screen and (max-width: 1024px){
+        a {
+            font-size: 1.7vw;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        a {
+            font-size: 2.3vw;
+        }
+    }
+    @media screen and (max-width: 510px) {
+        a {
+            font-size: 3vw;
+        }
+    }
+    @media screen and (max-width: 333px) {
+        font-size: 4.5vw;
+    }
+}
+
+ion-icon {
+    color: $color-principal;
+}
+
+.verblog-otienda {
+    font-size: 1.7vw;
+}
+@media screen and (max-width: 1024px) {
+    .verblog-otienda {
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 510px) {
+    .verblog-otienda {
+        font-size: 3.7vw;
+    }
+}
+
+header {
+    z-index: 3;
+}
+
+
+.background-pages {
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.5), rgba(0, 0, 0, 0.2)), url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+    background-position-x: top;
+    background-position-y: -230px;
+    opacity: 95%;
+}

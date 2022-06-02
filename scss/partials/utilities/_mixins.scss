@@ -1,0 +1,9 @@
+@mixin margenes-botones($top, $right) {
+    margin-top: $top;
+    margin-right: $right;
+}
+
+@mixin margenes-pages($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+}

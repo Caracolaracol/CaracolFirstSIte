@@ -1,0 +1,19 @@
+@keyframes bicho-1 {
+    from {bottom: 4vw}
+    to {bottom: 14vw}
+}
+
+.bicho-1-div {
+    position: absolute;
+    left: 20%;
+    z-index: 4;
+    animation-name: bicho-1;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+}
+
+
+.bicho-1 {
+    width: 12vw;
+}

@@ -93,6 +93,11 @@ h6 {
   h6 {
     font-size: 5vw; } }
 
+b {
+  font-weight: 900;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 1px; }
+
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1vw; }

@@ -403,32 +403,36 @@ header {
         -webkit-filter: drop-shadow(0px 0px 8px rgba(201, 139, 51, 0.8)); }
 
 @media screen and (max-width: 1024px) {
-  .background-footer .ir-arriba .aracnido {
-    width: 10vw; } }
+  .background-footer .text-footer {
+    margin-left: 32.5vw; }
+  .background-footer .ir-arriba {
+    padding-left: 20vw; }
+    .background-footer .ir-arriba .aracnido {
+      width: 9vw; } }
 
 @media screen and (max-width: 768px) {
   .background-footer .text-footer {
     margin-left: 32.5vw; }
   .background-footer .ir-arriba {
-    padding-left: 28vw; }
+    padding-left: 20vw; }
     .background-footer .ir-arriba .aracnido {
-      width: 12vw; } }
+      width: 13vw; } }
 
 @media screen and (max-width: 510px) {
   .background-footer .text-footer {
-    margin-left: 24vw; }
-  .background-footer .ir-arriba {
-    padding-left: 20vw; }
-    .background-footer .ir-arriba .aracnido {
-      width: 12vw; } }
-
-@media screen and (max-width: 333px) {
-  .background-footer .text-footer {
-    margin-left: 28vw; }
+    margin-left: 35vw; }
   .background-footer .ir-arriba {
     padding-left: 17vw; }
     .background-footer .ir-arriba .aracnido {
-      width: 20vw; } }
+      width: 16vw; } }
+
+@media screen and (max-width: 333px) {
+  .background-footer .text-footer {
+    margin-left: 33vw; }
+  .background-footer .ir-arriba {
+    padding-left: 17vw; }
+    .background-footer .ir-arriba .aracnido {
+      width: 26vw; } }
 
 form {
   margin-top: 4vh;

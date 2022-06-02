@@ -303,9 +303,13 @@
 
 @media screen and (max-width: 1024px) {
     .background-footer {
+        .text-footer{
+            margin-left: 32.5vw;
+        }
         .ir-arriba {
+            padding-left: 20vw;
             .aracnido {
-                width: 10vw;
+                width: 9vw;
             }
         }
     }
@@ -316,9 +320,9 @@
             margin-left: 32.5vw;
         }
         .ir-arriba {
-            padding-left: 28vw;
+            padding-left: 20vw;
             .aracnido {
-                width: 12vw;
+                width: 13vw;
             }
         }
     }
@@ -327,12 +331,12 @@
 @media screen and (max-width: 510px) {
     .background-footer {
         .text-footer{
-            margin-left: 24vw;
+            margin-left: 35vw;
         }
         .ir-arriba {
-            padding-left: 20vw;
+            padding-left: 17vw;
             .aracnido {
-                width: 12vw;
+                width: 16vw;
             }
         }
     }
@@ -340,12 +344,12 @@
 @media screen and (max-width: 333px) {
     .background-footer {
         .text-footer{
-            margin-left: 28vw;
+            margin-left: 33vw;
         }
         .ir-arriba {
             padding-left: 17vw;
             .aracnido {
-                width: 20vw;
+                width: 26vw;
             }
         }
     }

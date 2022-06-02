@@ -297,6 +297,56 @@
             }
             
         }
+
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .background-footer {
+        .ir-arriba {
+            .aracnido {
+                width: 10vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .background-footer {
+        .text-footer{
+            margin-left: 32.5vw;
+        }
+        .ir-arriba {
+            padding-left: 28vw;
+            .aracnido {
+                width: 12vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .background-footer {
+        .text-footer{
+            margin-left: 24vw;
+        }
+        .ir-arriba {
+            padding-left: 20vw;
+            .aracnido {
+                width: 12vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 333px) {
+    .background-footer {
+        .text-footer{
+            margin-left: 28vw;
+        }
+        .ir-arriba {
+            padding-left: 17vw;
+            .aracnido {
+                width: 20vw;
+            }
+        }
+    }
+}

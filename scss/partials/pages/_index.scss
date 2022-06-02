@@ -269,6 +269,9 @@
 /* ------------Footer-Index------------- */
 
 .background-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../images/background.jpg);
     background-size: cover;
     height: 120px;
@@ -278,5 +281,21 @@
         color: azure;
         margin-top: 6px;
         text-align: center;
+        margin-left: 36.5vw;
+    }
+    .ir-arriba {
+        position: sticky;
+        padding-left: 34vw; 
+        .aracnido {
+            width: 5vw;
+            -webkit-filter: drop-shadow(0px 0px 0px rgba(73, 30, 94, 0.8));
+            -webkit-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            &:hover {
+                -webkit-filter: drop-shadow(0px 0px 8px rgba(201, 139, 51, 0.8));
+            }
+        }
     }
 }
+

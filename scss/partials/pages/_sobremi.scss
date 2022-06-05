@@ -11,12 +11,20 @@
     .card {
         background-color: rgb(211, 191, 191);
     }
+    .video-card {
+        height: auto;
+        width: 30vw;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .sobremi {
         margin-left: 10%;
         margin-right: 10%;
+        .video-card {
+            height: auto;
+            width: 60vw;
+        }
     }
 }
 
@@ -24,14 +32,35 @@
     .sobremi {
         margin-left: 8%;
         margin-right: 8%;
+        .video-card {
+            height: auto;
+            width: 80vw;
+        }
     }
 }
+
 @media screen and (max-width: 510px){
     .sobremi {
         margin-left: 8%;
         margin-right: 8%;
+        .video-card {
+            height: auto;
+            width: 70vw;
+        }
     }
 }
+
+@media screen and (max-width: 333px){
+    .sobremi {
+        margin-left: 8%;
+        margin-right: 8%;
+        .video-card {
+            height: auto;
+            width: 60vw;
+        }
+    }
+}
+
 @media screen and (max-width: 333px) {
     .blog-margin {
         margin-top: 4vh;
@@ -48,11 +77,6 @@
     background-color: $color-principal;
 }
 
-.imagen-sobremi-1 {
-    max-height: 24vw;
-    margin: 1vw;
-}
-
 .parrafo-sobremi {
     text-align: justify;
     padding: 1vw;
@@ -63,15 +87,66 @@
     padding: 1vw;
 }
 
-@media screen and (max-width: 768px) {
-    .imagen-sobremi-1 {
-        max-height: 29vw;
-        margin: 0.4vw;
+.imagen-sobremi-1 {
+    padding-bottom: 2vw;
+}
+
+.foto-yo {
+    display: flex;
+    justify-content: center;
+}
+
+.links-foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2vw;
+    .card {
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+        padding: 10px;
+        position: relative;
+        background: #fff;
+        ul {
+            padding: 0;
+            max-width: 20vw;
+            li {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin: 2vw;
+                padding: 0;
+                a {
+                    font-size: 1vw;
+                }
+            }
+        }
     }
 }
-@media screen and (max-width: 510px) {
-    .imagen-sobremi-1 {
-        max-height: 34vw;
-        margin: 0.4vw;
+
+@media screen and (max-width: 930px) {
+    .links-foto {
+        flex-direction: column;
+    }
+}
+
+.video {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;
+    position: relative;
+    padding-bottom: 56.25%;
+	padding-top: 30px;
+    iframe {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
 }

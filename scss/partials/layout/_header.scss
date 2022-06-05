@@ -243,25 +243,44 @@ details > {
 
 .texto-background {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5vw;
+    font-size: 2vw;
     position: sticky;
     text-align: center;
     top: 250vw;
-    margin-bottom: 4vw;
-    color: rgb(34, 0, 34);
+    margin-bottom: 9vh;
+    color: rgb(63, 14, 63);
     user-select: none;
 }
 
+
+
+@media screen and (max-width: 1600px) {
+    .texto-background {
+        font-size: 2.2vw;
+        margin-bottom: 8vw;
+    }
+    
+}
+
+@media screen and (max-width: 1307px) {
+    .texto-background {
+        font-size: 2.9vw;
+        margin-bottom: 10vw;
+    }
+    
+}
+
+
 @media screen and (max-width: 1024px) {
     .texto-background {
-        font-size: 2.8vw;
-        margin-bottom: 9vw;
+        font-size: 4vw;
+        margin-bottom: 12vw;
     }
     
 }
 @media screen and (max-width: 768px) {
     .texto-background {
-        font-size: 3.8vw;
+        font-size: 4.3vw;
         margin-bottom: 17vw;
     }
     

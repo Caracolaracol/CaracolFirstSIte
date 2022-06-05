@@ -19,9 +19,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    height:100vw;
-    background-position-x: center;
+    background-position: bottom - 10px;
+    size: 60vw;
+    height: 90vw;
     opacity: 95%;
+}
+
+@media screen and (max-width: 1024px) {
+    .background-2 {
+        height: 75vw;
+    }
 }
 
 /* ---------foto destacada-index-------- */
@@ -277,27 +284,28 @@
     height: 120px;
     opacity: 90%;
     margin-top: 1rem;
-    .text-footer{
+    .text-footer {
         color: azure;
         margin-top: 6px;
         text-align: center;
         margin-left: 36.5vw;
     }
     .ir-arriba {
-        position: sticky;
-        padding-left: 34vw; 
-        .aracnido {
-            width: 5vw;
-            -webkit-filter: drop-shadow(0px 0px 0px rgba(73, 30, 94, 0.8));
-            -webkit-transition: all 0.2s linear;
-            -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
-            &:hover {
-                -webkit-filter: drop-shadow(0px 0px 8px rgba(201, 139, 51, 0.8));
+        overflow: hidden;
+        padding-left: 32vw;
+        a {
+            .aracnido {
+                width: 4.6vw;
+                -webkit-filter: drop-shadow(0px 0px 0px rgba(73, 30, 94, 0.8));
+                -webkit-transition: all 0.2s linear;
+                -o-transition: all 0.2s linear;
+                transition: all 0.2s linear;
+                &:hover {
+                    -webkit-filter: drop-shadow(0px 0px 8px rgba(201, 139, 51, 0.8));
+                }
             }
-            
         }
-
+        
     }
 }
 
@@ -308,9 +316,12 @@
         }
         .ir-arriba {
             padding-left: 20vw;
-            .aracnido {
-                width: 9vw;
+            a {
+                .aracnido {
+                    width: 9vw;
+                }
             }
+            
         }
     }
 }
@@ -321,9 +332,12 @@
         }
         .ir-arriba {
             padding-left: 20vw;
-            .aracnido {
-                width: 13vw;
+            a {
+                .aracnido {
+                    width: 16vw;
+                }
             }
+            
         }
     }
 }
@@ -335,9 +349,12 @@
         }
         .ir-arriba {
             padding-left: 17vw;
-            .aracnido {
-                width: 16vw;
+            a {
+                .aracnido {
+                    width: 16vw;
+                }
             }
+            
         }
     }
 }
@@ -348,9 +365,12 @@
         }
         .ir-arriba {
             padding-left: 17vw;
-            .aracnido {
-                width: 26vw;
+            a {
+                .aracnido {
+                    width: 26vw;
+                }
             }
+            
         }
     }
 }

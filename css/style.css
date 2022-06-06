@@ -645,11 +645,54 @@ form {
         margin: 2vw;
         padding: 0; }
         .links-foto .card ul li a {
-          font-size: 1vw; }
+          font-size: 1.2vw;
+          letter-spacing: 3px; }
 
 @media screen and (max-width: 930px) {
   .links-foto {
-    flex-direction: column; } }
+    flex-direction: column; }
+    .links-foto .card {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 50vw; }
+      .links-foto .card ul {
+        max-width: 70vw; }
+        .links-foto .card ul li {
+          align-content: center; }
+          .links-foto .card ul li a {
+            font-size: 3vw; } }
+
+@media screen and (max-width: 768px) {
+  .links-foto {
+    flex-direction: column; }
+    .links-foto .card {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 50vw; }
+      .links-foto .card ul {
+        max-width: 70vw; }
+        .links-foto .card ul li {
+          align-content: center; }
+          .links-foto .card ul li a {
+            font-size: 3vw; } }
+
+@media screen and (max-width: 510px) {
+  .links-foto {
+    flex-direction: column; }
+    .links-foto .card {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 50vw; }
+      .links-foto .card ul {
+        max-width: 70vw; }
+        .links-foto .card ul li {
+          align-content: center; }
+          .links-foto .card ul li a {
+            font-size: 4vw;
+            letter-spacing: 2px; } }
 
 .video {
   display: flex;
@@ -891,7 +934,7 @@ details > summary {
   text-align: center;
   top: 250vw;
   margin-bottom: 9vh;
-  color: #3f0e3f;
+  color: #f9f8f9;
   user-select: none; }
 
 @media screen and (max-width: 1600px) {

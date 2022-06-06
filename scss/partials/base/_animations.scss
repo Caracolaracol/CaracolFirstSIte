@@ -1,19 +1,16 @@
 @keyframes bicho-1 {
-    from {bottom: 4vw}
-    to {bottom: 14vw}
-}
-
-.bicho-1-div {
-    position: absolute;
-    left: 20%;
-    z-index: 4;
-    animation-name: bicho-1;
-    animation-duration: 2s;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in;
+    0% {bottom: -20vw; left: 100vw; visibility: visible; opacity: 100%; transform: scale(1.0);}
+    95% {visibility: visible; opacity: 100%;}
+    100% {bottom: 100vw; left: 0vw; visibility: hidden; opacity: 0%; transform: scale(3.0);}
 }
 
 
 .bicho-1 {
     width: 12vw;
+    position: absolute;
+    z-index: 4;
+    animation-name: bicho-1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
 }

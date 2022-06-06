@@ -96,7 +96,6 @@ li {
     gap: 10px;
     grid-area: botones;
 }
-
 @media screen and (max-width: 1024px) {
     .botones-costado {
         display: none;
@@ -249,9 +248,10 @@ details > {
     text-align: center;
     top: 250vw;
     margin-bottom: 9vh;
-    color: rgb(249, 248, 249);
+    color: rgb(63, 14, 63);
     user-select: none;
 }
+
 
 
 @media screen and (max-width: 1600px) {
@@ -259,6 +259,7 @@ details > {
         font-size: 2.2vw;
         margin-bottom: 8vw;
     }
+    
 }
 
 @media screen and (max-width: 1307px) {
@@ -266,6 +267,7 @@ details > {
         font-size: 2.9vw;
         margin-bottom: 10vw;
     }
+    
 }
 
 
@@ -274,12 +276,14 @@ details > {
         font-size: 4vw;
         margin-bottom: 12vw;
     }
+    
 }
 @media screen and (max-width: 768px) {
     .texto-background {
         font-size: 4.3vw;
         margin-bottom: 17vw;
     }
+    
 }
 @media screen and (max-width: 510px) {
     .texto-background {
